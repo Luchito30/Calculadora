@@ -1,66 +1,87 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>Sumaria</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" sizes="any" href="adress/icono.png">
-  </head>
-  <body>
-      
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="index.html">
-            <img src="adress/icono.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
-           <span class="menu__titulo"><span class="titulo__rojito">S</span>umaria</span>
-          </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-link " href="calculadora.html">Calculadora</a>
-            <a class="nav-link" href="#">Contanto</a>
-            <a class="nav-link" href="#">Sobre Sumaria</a>
-          </div>
-        </div>
-      </nav>
+
+<head>
+  <title>Sumaria</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" sizes="any" href="adress/icono.png">
+  <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
+</head>
+
+<body>
 
 
-<div>
-<h1 class="titulo__titulo"><img class="titulo__img" src="adress/icono.png" alt="suma"> <span class="titulo__rojito">S</span>umaria</h1>
-</div>
-
-<div class="card mb-3 card__position" style="max-width: 540px;">
-    <div class="row no-gutters">
-      <div class="col-md-4">
-        <img src="adress/calculadora.jpg" class="card-img" alt="calculadora">
-      </div>
-      <div class="col-md-8">
-        <div class="card-body">
-          <h5 class="card-title">Calculadora</h5>
-          <p class="card-text">Ahora vas a poder hacer tus cuentas de una manera mas facil, con la calculadora de Sumaria se te va a ser facil Sumar, Restar, Multiplicar y Dividir, y sacar porcentajes. </p>
-          <p class="card-text"></p>
-          <button type="button" class="btn btn-primary btn-lg card__button"><a href="calculadora.html" class="card__link"> Calculadora de sumaria </a>
-        </button>
-        </div>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">
+      <img src="adress/icono.png" width="30" height="30" class="d-inline-block align-top" alt="sumaria" loading="lazy">
+      <span class="menu__titulo"><span class="titulo__rojito">S</span>umaria</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" href="index.html">Home<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="calculadora.html">Calculadora</a>
+        <a class="nav-link" href="#">Contanto</a>
+        <a class="nav-link" href="#">Sobre Sumaria</a>
       </div>
     </div>
-  </div>
+  </nav>
 
-  <footer class="fotter__copy"></footer>
+<div>
+  <h1 class="titulo__titulo"><img class="titulo__img" src="adress/icono.png" alt="suma"> <span
+      class="titulo__rojito">S</span>umaria</h1>
+</div>
+
+
+
+<article>
   
+  <div class="container-fluid">
+    <div class="row">
+
+      <div class="card col-md-3 col-sm-6 card__position-1" style="width: 18rem;">
+        <img src="adress/calculadora.jpg" class="card-img-top center__img" alt="calculadora">
+        <div class="card-body">
+          <h5 class="card-title"><span class="titulo__rojito">C</span>alculadora</h5>
+          <p class="card-text">Vas a poder realizar tus cuentas de una forma sensilla y rapida, con la calculadora de
+            Sumaria vas a poder Sumar, Restar, Multiplicar y Dividir.</p>
+          <a href="calculadora.html" class="btn btn-primary card__link">Sumaria Calculadora</a>
+        </div>
+      </div>
+
+
+
+      <div class="card col-md-3 col-sm-6 card__position-2" style="width: 18rem;">
+        <img src="adress/proximamente.jpg" class="card-img-top center__img" alt="proximamente">
+        <div class="card-body">
+          <h5 class="card-title"><span class="titulo__rojito">P</span>roximamente</h5>
+          <p class="card-text">Vas a poder a poder ver nuevo material, estamos trabajando para poder hacer mas grande el
+            sitio.</p>
+          <a href="#" class="btn btn-primary card__link disabled">Proximamente</a>
+        </div>
+      </div>
 
 
 
 
+    </div>
+    </div>
+
+  
+</article>
 
 
-      
-    <script src="js/jquery-3.5.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/java.js"></script>
-  </body>
+
+
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
 </html>
